@@ -13,7 +13,7 @@
     "dev": "overmind start -f ./Procfile.dev",
     "ruby:prettier": "bundle exec rubocop -a",
     "build:sdk": "BUILD_MODE=library vite build",
-    "prepare": "[ \"$RAILS_ENV\" != \"production\" ] && husky install || true",
+    "prepare": "make burn",
     "size": "size-limit",
     "story:dev": "histoire dev",
     "story:build": "histoire build",
